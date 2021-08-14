@@ -1,0 +1,19 @@
+/* author: Филипп Ригованов */
+
+.catalog .wedding {
+  height: 442px;
+  background-image: url(../img/sammi-sP5CaWEN7Do-unsplash.jpg);
+  background-repeat: no-repeat;
+}
+
+.catalog .pions {
+  height: 442px;
+  background-image: url(../img/fresh-beautiful-peony-flowers-vase.jpg);
+  background-repeat: no-repeat;
+}
+
+.catalog .personal {
+  height: 442px;
+  background-image: url(../img/alyssa-strohmann-tnpr-hPOta0-unsplash.jpg);
+  background-repeat: no-repeat;
+}
