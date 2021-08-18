@@ -1,36 +1,45 @@
 @font-face {
-  font-family: "Playfair Display";
-
-  src: url("../fonts/PlayfairDisplay-Regular.woff2") format("woff2"),
-    url("../fonts/PlayfairDisplay-Regular.woff") format("woff");
-
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Playfair Display";
-
-  src: url("../fonts/PlayfairDisplay-Bold.woff2") format("woff2"),
-    url("../fonts/PlayfairDisplay-Bold.woff") format("woff");
-
-  font-weight: 700;
-  font-style: normal;
-}
-@font-face {
   font-family: "Montserrat";
-
-  src: url("../fonts/Montserrat-Regular.woff2") format("woff2"),
+  src: local("Montserrat-Regular"),
+    url("../fonts/Montserrat-Regular.woff2") format("woff2"),
     url("../fonts/Montserrat-Regular.woff") format("woff");
-
-  font-weight: 400;
+  font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "Montserrat";
-
-  src: url("../fonts/Montserrat-Medium.woff2") format("woff2"),
+  src: local("Montserrat-Medium"),
+    url("../fonts/Montserat-Medium.woff2") format("woff2"),
     url("../fonts/Montserrat-Medium.woff") format("woff");
-
-  font-weight: 500;
+  font-weight: normal;
   font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PlayfairDisplay";
+  src: local("PlayfairDisplay-Regular"),
+    url("../fonts/PlayfairDisplay-Regular.woff2") format("woff2"),
+    url("../fonts/PlayfairDisplay-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PlayfairDisplay";
+  src: local("PlayfairDisplay-Bold"),
+    url("../fonts/PlayfairDisplay-Bold.woff2") format("woff2"),
+    url("../fonts/PlayfairDisplay-Bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PlayfairDisplay";
+  src: local("PlayfairDisplay-Italic"),
+    url("../fonts/PlayfairDisplay-Italic.woff2") format("woff2"),
+    url("../fonts/PlayfairDisplay-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
